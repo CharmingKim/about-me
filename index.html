@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="viewport" content="width=device-width,  initial-scale=1.0" />
+	<title>Document</title>
+	
+	<style type="text/css">
+	/* 선택자 : 스타일을 적용할 대상을 가르키는 css문법 
+		선택자 { 
+			속성1: 값1;
+			속성2: 값2;
+			...계속...
+		}
+	*/
+	h1 , h2, h3 {
+		text-align: center;
+	}
+	
+	p{
+		text-align: center;	
+	}
+	.d-none {
+	display:none;	
+	}
+	
+	.icons {
+		position:relative;
+		display: flex; /* 표시방법 : 플렉스 */
+		column-gap: 1rem; /* 컬럼-간격 : 1rem */
+		text-align: center;
+		justify-content: center;
+	}
+	.profile { 
+		text-align: center;
+	}
+	
+	</style>
+</head>
+<body>
+	<h1 class="d-none">about</h1>
+	<div class="profile">
+		<img src="images/chars.png" alt="찰스" />
+	</div>
+	<h2>Chars, KIM</h2>
+	<p>He's first name is Chars</p>
+	<p>He's last name is Kim</p>
+	<p>He will be twenty-seven soon</p>
+	<p>He is a student at Hanul Programing School.</p>
+	<div class="icons">
+		<div>
+			<img src="images/naverlink.png" alt="찰스" />
+			<p>Naverblog</p>
+		</div>
+		<div>
+			<img src="images/facebooklink.png" alt="찰스" />
+			<p>facebook</p>
+		</div>
+		<div>
+			<img src="images/instalink.png" alt="찰스" />
+			<p>instagram</p>
+		</div>
+		<div>
+			<img src="images/gitlink.png" alt="찰스" />
+			<p>github</p>
+		</div>
+	</div>
+</body>
+</html>
